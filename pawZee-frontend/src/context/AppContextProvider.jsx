@@ -11,7 +11,7 @@ const AppContextProvider = ( { children } ) => {
 
     // Backend URL
 
-    const url =  'http://localhost:5000'
+    const url =  'https://pawzee-pet-shop-backend.onrender.com'
 
     // Form
 
