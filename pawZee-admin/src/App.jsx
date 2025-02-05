@@ -15,7 +15,7 @@ import Cat_Accessory_List from './Pages/Cat_Accessory_List';
 import Dog_Accessory_List from './Pages/Dog_Accessory_List';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
-export const url = 'http://localhost:5000';
+export const url = 'https://pawzee-pet-shop-backend.onrender.com';
 
 const App = () => {
 
