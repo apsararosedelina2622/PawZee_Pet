@@ -6,7 +6,7 @@ const HomeContent = () => {
         <>
             <div className='px-5 py-5 lg:px-20 grid lg:grid-cols-2 gap-10 md:px-10'>
                 <div className='overflow-hidden rounded-tl-3xl rounded-br-3xl'>
-                    {/* <img src={assets.home_content_img} alt="content_img" className='h-[30vh] lg:h-full md:h-full w-full shadow-lg rounded-tl-3xl rounded-br-3xl object-cover transition-transform duration-500 ease-in-out hover:scale-110'/> */}
+                    <img src={assets.home_content_img} alt="content_img" className='h-[30vh] lg:h-full md:h-full w-full shadow-lg rounded-tl-3xl rounded-br-3xl object-cover transition-transform duration-500 ease-in-out hover:scale-110'/>
                 </div>
                 <div className='py-0'>
 
