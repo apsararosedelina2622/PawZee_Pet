@@ -178,13 +178,13 @@ export const sm_carousel_data = [
     }
 ]
 
-export const maganize_imgs = [
-    {
-        id : 1,
-        img : magazine_img_1
-    },
-    {
-        id : 2,
-        img : magazine_img_2
-    }
-]
+// export const maganize_imgs = [
+//     {
+//         id : 1,
+//         img : magazine_img_1
+//     },
+//     {
+//         id : 2,
+//         img : magazine_img_2
+//     }
+// ]
