@@ -18,7 +18,7 @@ import { AppContext } from '../../context/AppContextProvider';
           <div className="text-center space-y-3 py-5">
             <p className="text-2xl font-semibold text-gray-800">You haven't added any products to your cart!</p>
             <p className="text-lg text-gray-500">
-              Please <Link to="/shop/cat" className="text-indigo-500 hover:underline">browse products</Link> and add them to your cart before proceeding.
+              Please <Link to="/shop/cat" className="text-[#6a70d1] hover:underline">browse products</Link> and add them to your cart before proceeding.
             </p>
             <img src={assets.empty_cart_img} alt="Empty Cart" className="lg:w-1/3 md:w-1/2 w-1/2 mx-auto grayscale" />
           </div>
@@ -28,7 +28,7 @@ import { AppContext } from '../../context/AppContextProvider';
               <p className="text-2xl font-semibold text-gray-800 mb-2">Your Order Has Been Confirmed!</p>
               <p className="text-lg text-gray-500">Thank you for shopping with us! Here's your order summary.</p>
               <p className="text-lg text-gray-600 mb-3">
-                Order Number: <span className="font-semibold text-indigo-600">#{orderNumber}</span>
+                Order Number: <span className="font-semibold text-[#6a70d1]">#{orderNumber}</span>
               </p>
             </div>
             <div className="lg:flex md:flex justify-between bg-gray-50 my-8">
@@ -45,7 +45,7 @@ import { AppContext } from '../../context/AppContextProvider';
                 <p className="text-xl text-gray-700">Cash on Delivery*</p>
                 <p className="text-xl font-semibold text-gray-700">Estimated Delivery Date</p>
                 <p className="text-lg text-gray-600">
-                  Your order is expected to arrive on <span className="font-semibold text-indigo-600">{formattedDate}</span>
+                  Your order is expected to arrive on <span className="font-semibold text-[#6a70d1]">{formattedDate}</span>
                 </p>
               </div>
             </div>
@@ -75,13 +75,13 @@ import { AppContext } from '../../context/AppContextProvider';
               </div>
               <div className="flex justify-between items-center font-semibold text-lg">
                 <p className="text-xl text-gray-800">Total Price :</p>
-                <p className="text-xl text-indigo-600">₹ {totalAfterDiscount.toFixed(2)}</p>
+                <p className="text-xl text-[#6a70d1]">₹ {totalAfterDiscount.toFixed(2)}</p>
               </div>
             </div>
             <div className="pb-8 text-center">
               <Link
                 to="/thank-you"
-                className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white text-lg px-8 py-3 rounded-full hover:bg-gradient-to-l transition duration-300"
+                className="bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-lg px-8 py-3 rounded-full hover:bg-gradient-to-l transition duration-300"
                 onClick={handleConfirmOrder}
               >
                 Confirm Order

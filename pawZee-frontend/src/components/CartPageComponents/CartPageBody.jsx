@@ -51,11 +51,11 @@ const CartPage = () => {
                                 ₹ {item.price * item.quantity}
                             </p>
                             <div className="flex items-center border w-fit">
-                                <button onClick={() => updateQuantity(item._id, 'decrease')} className="lg:h-10 lg:w-10 w-8 h-8 hover:bg-gradient-to-r from-indigo-500 to-purple-500 hover:text-white">
+                                <button onClick={() => updateQuantity(item._id, 'decrease')} className="lg:h-10 lg:w-10 w-8 h-8 hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:text-white">
                                     <i className="ri-subtract-line"></i>
                                 </button>
                                 <input type="text" value={item.quantity} className="text-center lg:h-10 lg:w-10 w-8 h-8 focus:outline-none" readOnly />
-                                <button onClick={() => updateQuantity(item._id, 'increase')} className="hover:bg-gradient-to-r from-indigo-500 to-purple-500 hover:text-white lg:h-10 lg:w-10 w-8 h-8">
+                                <button onClick={() => updateQuantity(item._id, 'increase')} className="hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:text-white lg:h-10 lg:w-10 w-8 h-8">
                                     <i className="ri-add-line"></i>
                                 </button>
                             </div>
@@ -84,7 +84,7 @@ const CartPage = () => {
                         </div>
                     </div>
                     <div className="text-center mt-10">
-                        <Link to="/checkout" className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-6 py-3 rounded-badge hover:bg-gradient-to-l transition duration-300">
+                        <Link to="/checkout" className="bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white px-6 py-3 rounded-badge hover:bg-gradient-to-l transition duration-300">
                             Proceed to Checkout
                         </Link>
                     </div>
