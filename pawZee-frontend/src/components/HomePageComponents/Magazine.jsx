@@ -1,5 +1,4 @@
 import React from 'react'
-import { maganize_imgs } from '../../assets/assets'
 
 const Magazine = () => {
     return (
