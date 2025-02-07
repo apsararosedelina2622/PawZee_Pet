@@ -25,7 +25,7 @@ import service_img_2 from './about_imgs/service_img_2.jpg'
 import service_img_3 from './about_imgs/service_img_3.jpg'
 import service_img_4 from './about_imgs/service_img_4.jpg'
 
-import magazine_img_1 from './maganize_imgs/magazine_img_1.jpg'
+// import magazine_img_1 from './maganize_imgs/magazine_img_1.jpg'
 import magazine_img_2 from './maganize_imgs/magazine_img_2.jpg'
 
 import carousel_img_1 from './carousel_imgs/carousel_img_1.jpg'
