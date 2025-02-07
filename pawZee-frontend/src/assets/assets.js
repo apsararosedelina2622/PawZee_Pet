@@ -13,8 +13,8 @@ import no_product_img from './no_product_img.jpg'
 import empty_cart_img from './empty_cart_img.jpg'
 import empty_wishlist_img from './empty_wishlist_img.jpg'
 
-import magazine_img_1 from './maganize_imgs/magazine_img_1.jpg'
-import magazine_img_2 from './maganize_imgs/magazine_img_2.jpg'
+import magazine_img_1 from './maganize_img/magazine_img_1.jpg'
+import magazine_img_2 from './maganize_img/magazine_img_2.jpg'
 
 import footer_img_1 from './footer_imgs/footer_img_1.jpg'
 import footer_img_2 from './footer_imgs/footer_img_2.jpg'
