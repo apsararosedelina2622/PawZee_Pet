@@ -10,7 +10,7 @@ const Magazine = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row items-center lg:gap-16 py-5">
                     <div className="flex-shrink-0 relative w-48 h-48 lg:w-72 lg:h-72 rounded-full shadow-lg border-4 border-purple-500 overflow-hidden">
-                        <img src={maganize_imgs[0].img} alt="magzine_img_1"className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110" />
+                        {/* <img src={maganize_imgs[0].img} alt="magzine_img_1"className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110" /> */}
                     </div>
                     <div className="text-center lg:text-start w-full p-5 mt-8 border border-[#6a70d1] rounded-bl-3xl rounded-tr-3xl">
                         <p className="text-gray-700 font-medium italic">"PawZee transformed my pet parenting journey!"</p>
@@ -31,7 +31,7 @@ const Magazine = () => {
                         <p className="block font-semibold text-gray-800 text-end">– Emily R.</p>
                     </div>
                     <div className="flex-shrink-0 relative w-48 h-48 lg:w-72 lg:h-72 rounded-full shadow-lg border-4 border-purple-500 overflow-hidden">
-                        <img src={maganize_imgs[1].img} alt="magzine_img_1" className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110"/>
+                        {/* <img src={maganize_imgs[1].img} alt="magzine_img_1" className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110"/> */}
                     </div>
                 </div>
             </div>
