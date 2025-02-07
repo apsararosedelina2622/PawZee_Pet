@@ -10,7 +10,7 @@ const Pets = () => {
         <>
             <div className="px-5 lg:px-20 xl:px-40 py-8 lg:py-14">
                 
-                <div className='text-center pb-10 text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-500'>
+                <div className='text-center pb-10 text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-[#6a70d1]'>
                     <p> PawZee Pets </p>
                 </div>
 

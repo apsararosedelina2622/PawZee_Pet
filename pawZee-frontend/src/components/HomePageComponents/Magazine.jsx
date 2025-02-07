@@ -4,7 +4,7 @@ const Magazine = () => {
     return (
         <>
             <div className="px-5 lg:px-20 py-5">
-                <div className='text-center h-[56px] text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500'>
+                <div className='text-center h-[56px] text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                     <p>PawZee Family</p>
                 </div>
                 <div className="flex flex-col lg:flex-row items-center lg:gap-16 py-5">

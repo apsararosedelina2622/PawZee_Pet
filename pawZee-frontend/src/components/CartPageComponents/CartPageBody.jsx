@@ -18,7 +18,7 @@ const CartPage = () => {
         <>
             <div className='pt-10 pb-20'>
                 <img src={assets.empty_cart_img} alt="Empty Cart" className="w-64 grayscale mx-auto" />
-                <div className="text-center text-lg text-gray-500">Your cart is empty. <Link to="/shop/cat" className="text-indigo-500 hover:underline">Browse Products</Link></div>
+                <div className="text-center text-lg text-gray-500">Your cart is empty. <Link to="/shop/cat" className="text-[#6a70d1] hover:underline">Browse Products</Link></div>
             </div>
         </>
         ) : (

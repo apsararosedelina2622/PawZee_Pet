@@ -29,7 +29,7 @@ const ShopBody = ( { pet } ) => {
         <>
             <div className='xl:px-14 lg:px-10 pt-24'>
                 
-                <div className='text-center text-3xl md:text-5xl lg:text-5xl lg:py-10 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-500 lg:h-[15vh] md:h-[10vh]'>
+                <div className='text-center text-3xl md:text-5xl lg:text-5xl lg:py-10 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-[#6a70d1] lg:h-[15vh] md:h-[10vh]'>
                     <p>PawZee Shop</p>
                 </div>
   

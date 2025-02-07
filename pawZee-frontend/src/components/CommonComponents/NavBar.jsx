@@ -268,7 +268,7 @@ const NavBar = () => {
             </label>
 
             <div className='pt-5'>
-              <input value={query} onChange={handleProductSearch} type="text" placeholder="Type to search..." className="cursor-pointer input shadow-inner rounded-3xl w-full focus:outline-none focus:border-t drop-shadow-[3px_3px_#9333EA] focus:border-purple-500"/>
+              <input value={query} onChange={handleProductSearch} type="text" placeholder="Type to search..." className="cursor-pointer input shadow-inner rounded-3xl w-full focus:outline-none focus:border-t drop-shadow-[3px_3px_#9333EA] focus:border-purple-400"/>
             </div>
 
             <div className='text-end relative -top-10 -left-5'>
@@ -434,7 +434,7 @@ const NavBar = () => {
                 <hr className="my-3" />
                 <div className="m-auto relative bottom-10">
                   <img src={assets.empty_wishlist_img} alt="Empty Cart" className="w-64 grayscale mb-5" />
-                  <div className="text-center text-lg text-gray-500">Your wishlist is empty. <Link to="/shop/cat" className="text-indigo-500 hover:underline">Browse Products</Link></div>
+                  <div className="text-center text-lg text-gray-500">Your wishlist is empty. <Link to="/shop/cat" className="text-[#6a70d1] hover:underline">Browse Products</Link></div>
                 </div>
 
               </>
@@ -519,7 +519,7 @@ const NavBar = () => {
                 <hr className="my-3" />
                 <div className="m-auto relative bottom-10">
                   <img src={assets.empty_cart_img} alt="Empty Cart" className="w-64 mb-5 grayscale" />
-                  <div className="text-center text-lg text-gray-500">Your cart is empty. <Link to="/shop/cat" className="text-indigo-500 hover:underline">Browse Products</Link></div>
+                  <div className="text-center text-lg text-gray-500">Your cart is empty. <Link to="/shop/cat" className="text-[#6a70d1] hover:underline">Browse Products</Link></div>
                 </div>
 
               </>

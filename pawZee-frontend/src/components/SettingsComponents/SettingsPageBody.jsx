@@ -75,7 +75,7 @@ const SettingsPage = () => {
                 user.profile_photo.startsWith("data:image/") ? (
                 <img src={user.profile_photo} alt="Profile" className="lg:w-52 lg:h-52 w-4/6  object-cover rounded-full mx-auto"/>
                 ) : (
-                <div className="lg:w-44 lg:h-44 w-28 h-28 bg-gradient-to-r mx-auto from-indigo-500 to-purple-500 flex items-center justify-center rounded-full text-white lg:text-7xl text-5xl">
+                <div className="lg:w-44 lg:h-44 w-28 h-28 bg-gradient-to-r mx-auto from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white lg:text-7xl text-5xl">
                   {user.username.charAt(0).toUpperCase()}
                 </div>
               )}

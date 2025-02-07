@@ -24,7 +24,7 @@ const MyOrdersPage = () => {
         </p>
 
         <Link to={'/'}>
-          <button className="px-6 py-2 bg-gradient-to-r from-purple-500 to-indigo-500 hover:bg-gradient-to-l text-white text-sm font-medium rounded-lg shadow-md transition-transform transform hover:scale-105">
+          <button className="px-6 py-2 bg-gradient-to-r from-purple-400 to-[#6a70d1] hover:bg-gradient-to-l text-white text-sm font-medium rounded-lg shadow-md transition-transform transform hover:scale-105">
             Start Shopping
           </button>
         </Link>
@@ -36,7 +36,7 @@ const MyOrdersPage = () => {
   return (
     <div className="pt-28 px-4 md:px-10 lg:px-15 xl:px-28">
       
-      <div className="text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-500 text-center h-[10vh]">
+      <div className="text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-[#6a70d1] text-center h-[10vh]">
         <p> My Orders </p>
       </div>
       
