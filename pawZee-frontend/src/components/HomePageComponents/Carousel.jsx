@@ -16,7 +16,7 @@ const Carousel = ({ lg_md_carousel_slides, sm_carousel_slides }) => {
           {lg_md_carousel_slides.map((data, index) => (
             <SwiperSlide key={index}>
               <div className="relative md:pt-20 lg:pt-0">
-                <img className="w-full h-full object-cover" src={data.img} alt="carousel_img" />
+                <img className="w-full lg:h-[100vh] h-[75vh] object-cover" src={data.img} alt="carousel_img" />
                 <div className="absolute inset-0 flex flex-col justify-center items-start lg:px-16 md:px-12" >
                   <p className="xl:text-6xl lg:text-4xl md:text-3xl font-bold bg-gradient-to-br from-[#6a70d1] to-purple-400 bg-clip-text text-transparent">
                     Experience the Magic <br /> of Unconditional Love
