@@ -13,6 +13,9 @@ import no_product_img from './no_product_img.jpg'
 import empty_cart_img from './empty_cart_img.jpg'
 import empty_wishlist_img from './empty_wishlist_img.jpg'
 
+import magazine_img_1 from './maganize_imgs/magazine_img_1.jpg'
+import magazine_img_2 from './maganize_imgs/magazine_img_2.jpg'
+
 import footer_img_1 from './footer_imgs/footer_img_1.jpg'
 import footer_img_2 from './footer_imgs/footer_img_2.jpg'
 import footer_img_3 from './footer_imgs/footer_img_3.jpg'
@@ -43,7 +46,9 @@ export const assets = {
     error_img,
     login_animation,
     register_animation,
-    order_success
+    order_success,
+    magazine_img_1,
+    magazine_img_2
 }
 
 export const service_data = [
