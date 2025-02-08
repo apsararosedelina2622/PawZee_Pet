@@ -115,11 +115,11 @@ const Pets = () => {
                                 <div>
                                     <p className="text-lg font-semibold text-purple-700 my-4">Recommended Products</p>
                                     <div className="flex flex-wrap gap-2">
-                                        <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Cats</span>
-                                        <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Dogs</span>
-                                        <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Foods</span>
-                                        <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Accessroies</span>
-                                        <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Groomings</span>
+                                        <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Cats</span>
+                                        <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Dogs</span>
+                                        <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Foods</span>
+                                        <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Accessroies</span>
+                                        <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Groomings</span>
                                     </div>
                                 </div>
                             </div>

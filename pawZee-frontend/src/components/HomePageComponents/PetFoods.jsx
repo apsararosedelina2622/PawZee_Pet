@@ -132,7 +132,7 @@ const PetFoods = () => {
                                 </div>
                                 
                                 <div>
-                                    <button className='bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white px-5 py-2 rounded cursor-pointer hover:bg-gray-300 hover:bg-none hover:text-gray-800 shadow-inner transition duration-300' onClick={handleAddToCart}>Add to Cart</button>
+                                    <button className='bg-gradient-to-r from-[#6a70d1] to-purple-400 font-medium text-white px-5 py-2 rounded cursor-pointer hover:bg-gray-100 hover:bg-none hover:text-purple-500 shadow-inner transition duration-300' onClick={handleAddToCart}>Add to Cart</button>
                                 </div>
                         
                                 <div>
