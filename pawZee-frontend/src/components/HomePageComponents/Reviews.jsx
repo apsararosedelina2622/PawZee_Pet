@@ -13,7 +13,7 @@ const Reviews = () => {
                     <p>What Our Customers Say!</p>
                 </div>
 
-                <div className='lg:flex md:flex justify-between items-center bg-gray-100 p-5 mt-8 mb-5'>
+                <div className='lg:flex md:flex justify-between items-center bg-gray-100 p-5 mt-8 mb-5 shadow'>
                     <div>
                         <div className="flex items-center">
                             <img src={assets.google_logo} alt="" className='w-[40px]'/>
@@ -31,14 +31,14 @@ const Reviews = () => {
                     </div>
 
                     <div className='flex justify-center'>
-                        <button className='btn lg:rounded-s-badge md:rounded-s-badge lg:mt-0 md:mt-0 mt-5 bg-gradient-to-br from-[#6a70d1] to-purple-400 shadow-inner hover:bg-none  hover:bg-gray-200 text-white hover:text-gray-800 border-0'>Review us on Google</button>
+                        <button className='btn rounded-full sm:block hidden lg:mt-0 md:mt-0 mt-5 bg-gradient-to-br from-[#6a70d1] to-purple-400 shadow-inner hover:bg-none  hover:bg-gray-200 text-white hover:text-gray-800 border-0'>Review us on Google</button>
                     </div>
                 </div>                   
 
                 <div className="flex scrollbar-hide overflow-x-auto gap-5">
                     {review_data.map((data, index) => {
                         return (
-                            <div key={index} className="bg-gray-100 p-5 w-60 flex-shrink-0 cursor-pointer">
+                            <div key={index} className="bg-gray-100 p-5 w-60 flex-shrink-0 cursor-pointer shadow-inner">
                                 <div className="flex gap-3">
                                     <p className={`w-11 h-11 text-white text-xl flex items-center justify-center rounded-full ${data.profile_bg}`}>
                                     {data.name[0]}
@@ -65,7 +65,7 @@ const Reviews = () => {
 
             {/* Services */}
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-16 px-5 lg:px-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-10 py-10 shadow-inner bg-gray-100 bg-opacity-50 px-5 lg:px-20'>
                 {service_data.map((data, index) => {
                     return (
                     <div key={index} className='flex gap-3 items-center py-4'>

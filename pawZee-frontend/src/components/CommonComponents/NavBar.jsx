@@ -18,10 +18,10 @@ const NavBar = () => {
             {!MenuOpen &&(
               <div className="font-bold text-xl cursor-pointer">
                 <div className="flex items-center mt-2">
-                    <Link to={'/home'} className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400 relative bottom-2 leading-none">
+                    <Link to={'/home'} className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 relative bottom-2 leading-none">
                     PawZee
                     <span className="absolute w-10 h-8 bg-purple-900 rounded-full bottom-0 -right-2 blur-md opacity-40"></span>
-                    <span className="absolute rounded w-16 h-[3px] bg-gradient-to-br from-[#6a70d1] to-purple-400 -bottom-1 left-0 transform -skew-x-10 "></span>
+                    <span className="absolute rounded w-16 h-[3px] bg-gradient-to-r from-[#6a70d1] to-purple-400 -bottom-1 left-0 transform -skew-x-10 "></span>
                   </Link>
                 </div>
               </div>
@@ -315,7 +315,7 @@ const NavBar = () => {
                         <div className="p-4">
                           <p className="text-gray-700">{data.desc}</p>
                           <div className="flex justify-between items-center">
-                            <button className="mt-4 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white rounded-lg px-6 py-2 shadow-md transition-all duration-300 hover:bg-gray-300 hover:bg-none hover:text-gray-800 hover:shadow-lg" onClick={() => setSelectedItem(data)} >
+                            <button className="mt-4 bg-gradient-to-r from-[#6a70d1] to-purple-400 font-medium text-white rounded-lg px-6 py-2 shadow-md transition-all duration-300 hover:bg-gray-100 hover:bg-none hover:text-purple-500 hover:shadow-lg" onClick={() => setSelectedItem(data)} >
                               Shop Now
                             </button>
                             <p className='text-purple-600 font-semibold text-lg mt-5'>₹ {data.price}</p>

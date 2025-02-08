@@ -38,7 +38,7 @@ const Pets = () => {
                             <div className="p-4">
                                 <p className="text-gray-700">{data.desc}</p>
                                 <div className="flex justify-between items-center">
-                                    <button className="mt-4 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white rounded-lg px-6 py-2 shadow-md transition-all duration-300 hover:bg-gray-300 hover:bg-none hover:text-gray-800 hover:shadow-lg" onClick={() => setSelectedItem(data)}>
+                                    <button className="mt-4 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white rounded-lg px-6 py-2 shadow-md transition-all duration-300 hover:bg-gray-100 hover:text-purple-500 font-medium hover:bg-none hover:shadow-lg" onClick={() => setSelectedItem(data)}>
                                         Shop Now
                                     </button>
                                     <p className='text-purple-600 font-semibold text-xl mt-5'>₹ {data.price}</p>
@@ -109,7 +109,7 @@ const Pets = () => {
                                 </div>
                                                         
                                 <div>
-                                    <button className='bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white px-5 py-2 rounded cursor-pointer hover:bg-gray-300 hover:bg-none hover:text-gray-800 shadow-inner transition duration-300' onClick={handleAddToCart}>Add to Cart</button>
+                                    <button className='bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white font-medium px-5 py-2 rounded cursor-pointer hover:bg-gray-100 hover:text-purple-500 shadow-inner transition duration-300' onClick={handleAddToCart}>Add to Cart</button>
                                 </div>
             
                                 <div>
