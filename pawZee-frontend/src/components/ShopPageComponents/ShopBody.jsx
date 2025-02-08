@@ -40,14 +40,14 @@ const ShopBody = ( { pet } ) => {
                     <div className='px-5 py-10 lg:block hidden'>
                         <div className='pb-3 flex justify-between items-center'>
                             <p className='text-2xl font-semibold '>Filters</p>
-                            <button className="text-purple-700" onClick={() => handleFilter('')}>
+                            <button className="text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 font-semibold" onClick={() => handleFilter('')}>
                             Clear Filters
                             </button>
                         </div>
                         <div className="space-y-5 mt-3">
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Cats</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -77,7 +77,7 @@ const ShopBody = ( { pet } ) => {
                             </div>
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Dogs</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -96,7 +96,7 @@ const ShopBody = ( { pet } ) => {
                         <div className="space-y-5">
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Cat Breeds</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -114,7 +114,7 @@ const ShopBody = ( { pet } ) => {
                             </div>
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Dog Breeds</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -132,7 +132,7 @@ const ShopBody = ( { pet } ) => {
                             </div>
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Cat Foods</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -150,7 +150,7 @@ const ShopBody = ( { pet } ) => {
                             </div>
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Dog Foods</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -168,7 +168,7 @@ const ShopBody = ( { pet } ) => {
                             </div>
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Cat Accessories</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -186,7 +186,7 @@ const ShopBody = ( { pet } ) => {
                             </div>
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Dog Accessories</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -204,7 +204,7 @@ const ShopBody = ( { pet } ) => {
                             </div>
                             <div className="collapse rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Cat Groomings</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -222,7 +222,7 @@ const ShopBody = ( { pet } ) => {
                             </div>
                             <div className="collapse  rounded-none shadow-lg w-72">
                                 <input type="checkbox" />
-                                <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                <div className="collapse-title flex justify-between text-xl font-semibold">
                                     <p>Cat Groomings</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
@@ -261,7 +261,7 @@ const ShopBody = ( { pet } ) => {
                                 <div className="space-y-5">
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Cats</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -291,7 +291,7 @@ const ShopBody = ( { pet } ) => {
                                     </div>
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Dogs</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -311,7 +311,7 @@ const ShopBody = ( { pet } ) => {
                                 <div className="space-y-5">
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Cat Breeds</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -329,7 +329,7 @@ const ShopBody = ( { pet } ) => {
                                     </div>
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Dog Breeds</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -347,7 +347,7 @@ const ShopBody = ( { pet } ) => {
                                     </div>
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Cat Foods</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -365,7 +365,7 @@ const ShopBody = ( { pet } ) => {
                                     </div>
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Dog Foods</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -383,7 +383,7 @@ const ShopBody = ( { pet } ) => {
                                     </div>
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Cat Accessories</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -401,7 +401,7 @@ const ShopBody = ( { pet } ) => {
                                     </div>
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Dog Accessories</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -419,7 +419,7 @@ const ShopBody = ( { pet } ) => {
                                     </div>
                                     <div className="collapse rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Cat Groomings</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
@@ -437,7 +437,7 @@ const ShopBody = ( { pet } ) => {
                                     </div>
                                     <div className="collapse  rounded-none shadow-lg w-72">
                                         <input type="checkbox" />
-                                        <div className="collapse-title flex justify-between text-xl font-semibold bg-gray-100">
+                                        <div className="collapse-title flex justify-between text-xl font-semibold">
                                             <p>Cat Groomings</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>

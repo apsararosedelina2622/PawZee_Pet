@@ -22,7 +22,7 @@ const ContactPageBody = () => {
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 px-5 py-8 lg:px-20 lg:py-14'>
 
-                    <div className='shadow-lg bg-gray-100 rounded-lg p-4 lg:p-8 md:p-8'>
+                    <div className='shadow-lg rounded-lg p-4 lg:p-8 md:p-8'>
                         <div className='text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-[#6a70d1]'>
                             <p>Get In Touch</p>
                         </div>
@@ -30,29 +30,29 @@ const ContactPageBody = () => {
                         <p className='py-3'>Feel free to reach out through any of the methods below :</p>
 
                         <div className="flex gap-4">
-                            <i className="ri-map-pin-2-fill text-2xl text-[#6a70d1]"></i>
+                            <i className="ri-map-pin-2-fill text-2xl text-purple-500"></i>
                             <p>123 Pet Street, <br /> Near Central Park, <br />Trichy, TamilNadu,<br /> India.</p>
                         </div>
 
                         <div className="flex items-center gap-4 py-3">
-                            <i className="ri-phone-fill text-2xl text-[#6a70d1]"></i>
+                            <i className="ri-phone-fill text-2xl text-purple-500"></i>
                             <p>+91 98765 43210</p>
                         </div>
 
                         <div className="flex items-center gap-4">
-                            <i className="ri-mail-line text-2xl text-[#6a70d1]"></i>
+                            <i className="ri-mail-line text-2xl text-purple-500"></i>
                             <p>contact@PawZee.com</p>
                         </div>
 
                         <div className='pt-6 space-x-4'>
-                            <i className="ri-facebook-fill text-xl cursor-pointer text-[#6a70d1] hover:text-white hover:bg-[#6a70d1] border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-twitter-x-line text-xl cursor-pointer text-[#6a70d1] hover:text-white hover:bg-[#6a70d1] border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-instagram-line text-xl cursor-pointer text-[#6a70d1] hover:text-white hover:bg-[#6a70d1] border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-whatsapp-line text-xl cursor-pointer text-[#6a70d1] hover:text-white hover:bg-[#6a70d1] border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-facebook-fill text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-twitter-x-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-instagram-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-whatsapp-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
                         </div>
                     </div>
 
-                    <div className='shadow-lg bg-gray-100 rounded-lg p-4 lg:p-8 md:p-8'>
+                    <div className='shadow-lg rounded-lg p-4 lg:p-8 md:p-8'>
                         <div className='text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-[#6a70d1]'>
                             <p>Send Message</p>
                         </div>
