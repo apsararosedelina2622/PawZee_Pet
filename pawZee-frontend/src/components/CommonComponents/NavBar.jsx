@@ -31,32 +31,32 @@ const NavBar = () => {
           {/* MENUS */}
           <div className='lg:pl-16 xl:pl-48 lg:inline md:inline hidden '>
 
-            <NavLink to="/home" className={({ isActive }) => `py-2 mx-1 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-              ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+            <NavLink to="/home" className={({ isActive }) => `py-2 mx-1 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+              ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
               : "hover:text-white"}`}>
               Home
             </NavLink>
 
-            <NavLink to="/about" className={({ isActive }) => `py-2 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-              ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+            <NavLink to="/about" className={({ isActive }) => `py-2 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+              ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
               : "hover:text-white"}`}>
               About
             </NavLink>
 
-            <NavLink to="/shop/cat" className={({ isActive }) => `py-2 mx-1 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-              ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+            <NavLink to="/shop/cat" className={({ isActive }) => `py-2 mx-1 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+              ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
               : "hover:text-white"}`}>
               Cats
             </NavLink>
 
-            <NavLink to="/shop/dog" className={({ isActive }) => `py-2 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-              ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+            <NavLink to="/shop/dog" className={({ isActive }) => `py-2 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+              ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
               : "hover:text-white"}`}>
               Dogs
             </NavLink> 
 
-            <NavLink to="/contact" className={({ isActive }) => `py-2 mx-1 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-              ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+            <NavLink to="/contact" className={({ isActive }) => `py-2 mx-1 lg:px-6 md:px-2 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+              ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
               : "hover:text-white"}`}>
               Contact
             </NavLink>
@@ -77,7 +77,7 @@ const NavBar = () => {
                   <i className="ri-heart-3-line lg:text-xl md:text-lg"></i>
                 </label>
                 {wishlist.length > 0 && (
-                  <span className="absolute -top-3 -right-3 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+                  <span className="absolute -top-3 -right-3 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
                     {wishlist.reduce((total, item) => total + item.quantity, 0)}
                   </span>
                 )}
@@ -88,7 +88,7 @@ const NavBar = () => {
                   <i className="ri-shopping-cart-2-line lg:text-xl md:text-lg"></i>
                 </label>
                 {cart.length > 0 && (
-                  <span className="absolute -top-3 -right-3 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+                  <span className="absolute -top-3 -right-3 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
                     {cart.reduce((total, item) => total + item.quantity, 0)}
                   </span>
                 )}
@@ -106,12 +106,12 @@ const NavBar = () => {
                     className="w-10 h-10 object-cover rounded-full"
                   />
                 ) : (
-                  <div className="w-10 h-10 bg-gradient-to-br from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-xl">
+                  <div className="w-10 h-10 bg-gradient-to-r from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-xl">
                     {user.username.charAt(0).toUpperCase()}
                   </div>
                 )
               ) : (
-                <div className="w-10 h-10 bg-gradient-to-br from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-xl">
+                <div className="w-10 h-10 bg-gradient-to-r from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-xl">
                   
                 </div>
               )}
@@ -127,7 +127,7 @@ const NavBar = () => {
 
             {/* LOGOUT BTN */}
             <div>
-              <button className='flex gap-1 rounded-full text-white bg-gradient-to-br from-[#6a70d1] to-purple-400 hover:bg-gradient-to-l px-4 py-2'>
+              <button className='flex gap-1 rounded-full text-white bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:bg-gradient-to-l px-4 py-2'>
                 <Link to={'/logout'}>Log out</Link>
                 <i className="ri-logout-box-line text-xl"></i>
               </button>
@@ -142,11 +142,11 @@ const NavBar = () => {
                   user.profile_photo && user.profile_photo.startsWith('data:image/') ? (
                   <img src={user.profile_photo} alt="Profile" className="w-10 h-10 object-cover rounded-full" />
                   ) : (
-                    <div className="w-10 h-10 bg-gradient-to-br from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-xl">
+                    <div className="w-10 h-10 bg-gradient-to-r from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-xl">
                       {user.username.charAt(0).toUpperCase()}
                     </div>
                   )) : (
-                  <div className="w-10 h-10 bg-gradient-to-br from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-xl">
+                  <div className="w-10 h-10 bg-gradient-to-r from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-xl">
                     
                   </div>
                 )}
@@ -165,7 +165,7 @@ const NavBar = () => {
   
               {/* Logout Btn */}
               <div>
-                <button className='flex gap-1 rounded-full text-white bg-gradient-to-br from-[#6a70d1] to-purple-400 hover:bg-gradient-to-ltext-white px-4 py-2'>
+                <button className='flex gap-1 rounded-full text-white bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:bg-gradient-to-ltext-white px-4 py-2'>
                   <Link to={'/logout'}>Log out</Link>
                   <i className="ri-logout-box-line text-xl"></i>
                 </button>
@@ -189,7 +189,7 @@ const NavBar = () => {
                   <i className="ri-heart-3-line text-xl"></i>
                 </label>
                 {wishlist.length > 0 && (
-                  <span className="absolute -top-3 -right-3 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+                  <span className="absolute -top-3 -right-3 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
                     {wishlist.reduce((total, item) => total + item.quantity, 0)}
                   </span>
                 )}
@@ -200,7 +200,7 @@ const NavBar = () => {
                   <i className="ri-shopping-cart-2-line text-xl"></i>
                 </label>
                 {cart.length > 0 && (
-                  <span className="absolute -top-3 -right-3 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+                  <span className="absolute -top-3 -right-3 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
                     {cart.reduce((total, item) => total + item.quantity, 0)}
                   </span>
                 )}
@@ -214,32 +214,32 @@ const NavBar = () => {
 
             {/* MENUS */}
             <div className='flex flex-col my-5'>
-              <NavLink to="/home" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-                ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+              <NavLink to="/home" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+                ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
                 : "hover:text-white"}`}>
                 Home
               </NavLink>
 
-              <NavLink to="/about" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-                ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+              <NavLink to="/about" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+                ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
                 : "hover:text-white"}`}>
                 About
               </NavLink>
 
-              <NavLink to="/shop/cat" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-                ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+              <NavLink to="/shop/cat" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+                ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
                 : "hover:text-white"}`}>
                 Cats
               </NavLink>
 
-              <NavLink to="/shop/dog" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-                ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+              <NavLink to="/shop/dog" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+                ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
                 : "hover:text-white"}`}>
                 Dogs
               </NavLink> 
 
-              <NavLink to="/contact" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 ${isActive
-                ? "bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white"
+              <NavLink to="/contact" className={({ isActive }) => `py-2 px-6 rounded-full hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 ${isActive
+                ? "bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white"
                 : "hover:text-white"}`}>
                 Contact
               </NavLink>
@@ -305,10 +305,10 @@ const NavBar = () => {
                             {data.name}
                           </p>
                           <div className="absolute my-2 top-4 right-2 text-xl opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-100">
-                            <i className={`ri-heart-3-line rounded-full w-11 h-11 flex items-center justify-center cursor-pointer hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 hover:text-white ${wishlist.some(wishItem => wishItem.id === data.id) ? 'text-white bg-gradient-to-br from-[#6a70d1] to-purple-400' : 'text-gray-700 bg-white'}`} onClick={() => handleAddToWishlistIcon(data)}></i>
+                            <i className={`ri-heart-3-line rounded-full w-11 h-11 flex items-center justify-center cursor-pointer hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:text-white ${wishlist.some(wishItem => wishItem.id === data.id) ? 'text-white bg-gradient-to-r from-[#6a70d1] to-purple-400' : 'text-gray-700 bg-white'}`} onClick={() => handleAddToWishlistIcon(data)}></i>
                           </div>
                           <div className="absolute top-16 right-2 mt-4 text-xl opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-200">
-                            <i className={`ri-shopping-cart-2-line rounded-full w-11 h-11 flex items-center justify-center cursor-pointer hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 hover:text-white ${cart.some(cartItem => cartItem.id === data.id) ? 'text-white bg-gradient-to-br from-[#6a70d1] to-purple-400' : 'text-gray-700 bg-white'}`} onClick={() => handleAddToCartIcon(data)}></i>
+                            <i className={`ri-shopping-cart-2-line rounded-full w-11 h-11 flex items-center justify-center cursor-pointer hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:text-white ${cart.some(cartItem => cartItem.id === data.id) ? 'text-white bg-gradient-to-r from-[#6a70d1] to-purple-400' : 'text-gray-700 bg-white'}`} onClick={() => handleAddToCartIcon(data)}></i>
                           </div>
                         </div>
   
@@ -382,7 +382,7 @@ const NavBar = () => {
                           </div>
                 
                           <div>
-                            <button className='bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white px-5 py-2 rounded cursor-pointer hover:bg-gray-300 hover:bg-none hover:text-gray-800 shadow-inner transition duration-300' onClick={handleAddToCart}>Add to Cart</button>
+                            <button className='bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white px-5 py-2 rounded cursor-pointer hover:bg-gray-300 hover:bg-none hover:text-gray-800 shadow-inner transition duration-300' onClick={handleAddToCart}>Add to Cart</button>
                           </div>
                 
                           <div>
@@ -422,9 +422,9 @@ const NavBar = () => {
 
                 <div className="flex items-center sticky top-0 bg-white z-10 py-3">
                   <div className="flex items-center">
-                    <span className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400">Shopping Wishlist</span>
+                    <span className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400">Shopping Wishlist</span>
                     {wishlist.length > 0 && (
-                      <span className="relative -top-3 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">{wishlist.reduce((total, item) => total + item.quantity, 0)}</span>
+                      <span className="relative -top-3 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">{wishlist.reduce((total, item) => total + item.quantity, 0)}</span>
                     )}
                   </div>
                   <label htmlFor="wishlist-drawer" className="text-purple-600 font-bold  bg-gray-100 w-8 h-8 p-2 rounded-full flex items-center justify-center ml-auto">
@@ -446,9 +446,9 @@ const NavBar = () => {
 
                   <div className="flex items-center sticky top-0 bg-white z-10">
                     <div className="flex items-center">
-                      <span className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400">Shopping Wistlist</span>
+                      <span className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400">Shopping Wistlist</span>
                       {cart.length > 0 && (
-                        <span className="relative -top-3 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+                        <span className="relative -top-3 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
                           {cart.reduce((total, item) => total + item.quantity, 0)}
                         </span>
                       )}
@@ -482,7 +482,7 @@ const NavBar = () => {
 
                   <div className="sticky bottom-0 z-10 py-4">
                     <div className="mt-6 flex gap-5">
-                      <Link to="/wishlist" className="text-center btn-block bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-lg px-6 py-3 hover:bg-gradient-to-l transition duration-300">Browse Wishlist</Link>
+                      <Link to="/wishlist" className="text-center btn-block bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-lg px-6 py-3 hover:bg-gradient-to-l transition duration-300">Browse Wishlist</Link>
                     </div>
                   </div>
 
@@ -507,9 +507,9 @@ const NavBar = () => {
                 
                 <div className="flex items-center sticky top-0 bg-white z-10 py-3">
                   <div className="flex items-center">
-                    <span className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400">Shopping Cart</span>
+                    <span className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400">Shopping Cart</span>
                     {cart.length > 0 && (
-                      <span className="relative -top-3 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">{cart.reduce((total, item) => total + item.quantity, 0)}</span>
+                      <span className="relative -top-3 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">{cart.reduce((total, item) => total + item.quantity, 0)}</span>
                     )}
                   </div>
                   <label htmlFor="cart-drawer" className="text-purple-600 font-bold  bg-gray-100 w-8 h-8 p-2 rounded-full flex items-center justify-center ml-auto">
@@ -531,9 +531,9 @@ const NavBar = () => {
 
                 <div className="flex items-center sticky top-0 bg-white z-10">
                   <div className="flex items-center">
-                    <span className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400">Shopping Cart</span>
+                    <span className="font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400">Shopping Cart</span>
                     {cart.length > 0 && (
-                      <span className="relative -top-3 bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+                      <span className="relative -top-3 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
                         {cart.reduce((total, item) => total + item.quantity, 0)}
                       </span>
                     )}
@@ -557,9 +557,9 @@ const NavBar = () => {
                         <p className="text-lg font-medium text-gray-800">{item.name}</p>
                         <p className="text-sm text-gray-600">₹ {item.price}</p>
                         <div className="flex items-center border w-fit">
-                          <button onClick={() => updateQuantity(item._id, 'decrease')} className="hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 hover:text-white w-8 h-8"><i className="ri-subtract-line"></i></button>
+                          <button onClick={() => updateQuantity(item._id, 'decrease')} className="hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:text-white w-8 h-8"><i className="ri-subtract-line"></i></button>
                           <input type="text" value={item.quantity} className="text-center w-10 h-8 focus:outline-none" readOnly />
-                          <button onClick={() => updateQuantity(item._id, 'increase')} className="hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 hover:text-white w-8 h-8"><i className="ri-add-line"></i></button>
+                          <button onClick={() => updateQuantity(item._id, 'increase')} className="hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:text-white w-8 h-8"><i className="ri-add-line"></i></button>
                         </div>
                       </div>
 
@@ -588,8 +588,8 @@ const NavBar = () => {
                     </div>
                   </div>
                   <div className="mt-6 flex gap-5">
-                    <Link to="/cart" className="text-center btn-block bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white px-6 py-3 hover:bg-gradient-to-l transition duration-300">View Cart</Link>
-                    <Link to="/checkout" className="text-center btn-block bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white px-6 py-3 hover:bg-gradient-to-l transition duration-300">Proceed</Link>
+                    <Link to="/cart" className="text-center btn-block bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white px-6 py-3 hover:bg-gradient-to-l transition duration-300">View Cart</Link>
+                    <Link to="/checkout" className="text-center btn-block bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white px-6 py-3 hover:bg-gradient-to-l transition duration-300">Proceed</Link>
                   </div>
                 </div>
 

@@ -10,7 +10,7 @@ import { AppContext } from '../../context/AppContextProvider';
   
   return (
     <div className="pt-28">
-      <div className="text-2xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400 text-center lg:h-[8vh]">
+      <div className="text-2xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 text-center lg:h-[8vh]">
         <p> Order Confirmation </p>
       </div>
       <div className="rounded-lg shadow-xl lg:mx-28 xl:mx-64 mx-5 my-10">
@@ -81,7 +81,7 @@ import { AppContext } from '../../context/AppContextProvider';
             <div className="pb-8 text-center">
               <Link
                 to="/thank-you"
-                className="bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white text-lg px-8 py-3 rounded-full hover:bg-gradient-to-l transition duration-300"
+                className="bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white text-lg px-8 py-3 rounded-full hover:bg-gradient-to-l transition duration-300"
                 onClick={handleConfirmOrder}
               >
                 Confirm Order

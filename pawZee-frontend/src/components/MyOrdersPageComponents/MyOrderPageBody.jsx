@@ -46,7 +46,7 @@ const MyOrdersPage = () => {
             <div key={index} className="mb-10">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <div className="text-end" onClick={() => Remove_Order(order._id)}>
-                  <button className='bg-gradient-to-br from-[#6a70d1] to-purple-400 hover:bg-gradient-to-l text-white py-2 px-4 rounded-full'>Remove</button>
+                  <button className='bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:bg-gradient-to-l text-white py-2 px-4 rounded-full'>Remove</button>
                 </div>
                 {/* Order Summary */}
                 <table className="min-w-full table-auto mb-6">

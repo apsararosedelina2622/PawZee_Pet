@@ -20,7 +20,7 @@ const SettingsPage = () => {
                 className="w-40 h-40 object-cover rounded-full mx-auto"
               />
               ) : (
-                <div className="w-28 h-28 bg-gradient-to-br from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-4xl">
+                <div className="w-28 h-28 bg-gradient-to-r from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-4xl">
                   {user.username.charAt(0).toUpperCase()}
                 </div>
             )) : (
@@ -34,19 +34,19 @@ const SettingsPage = () => {
           ) : ''}
         </div>
         <div className="w-full">
-          <button onClick={() => setSelectedSection('details')} className='text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-br from-[#6a70d1] to-purple-400'>
+          <button onClick={() => setSelectedSection('details')} className='text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-r from-[#6a70d1] to-purple-400'>
             <i className="ri-user-line mr-2"></i>User Details
           </button>
-          <button onClick={() => setSelectedSection('editProfile')} className='text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-br from-[#6a70d1] to-purple-400 shadow-xl'>
+          <button onClick={() => setSelectedSection('editProfile')} className='text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-r from-[#6a70d1] to-purple-400 shadow-xl'>
           <i className="ri-user-settings-line mr-2"></i>Edit Profile
           </button>
           <Link to='/home'>
-            <button className="text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-br from-[#6a70d1] to-purple-400">
+            <button className="text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-r from-[#6a70d1] to-purple-400">
             <i className="ri-home-4-line mr-2"></i>Go to Home
             </button>
           </Link>
           <Link to='/logout'>
-            <button className="text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-br from-[#6a70d1] to-purple-400">
+            <button className="text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-r from-[#6a70d1] to-purple-400">
             <i className="ri-logout-box-line mr-2"></i>Logout
             </button>
           </Link>
@@ -116,7 +116,7 @@ const SettingsPage = () => {
                 {newProfilePhoto || (user.profile_photo && user.profile_photo.startsWith('data:image/')) ? (
                   <img src={newProfilePhoto || user.profile_photo} alt="Profile Preview" className="w-full h-full object-cover rounded-full"/>
                 ) : (
-                  <div className="w-full h-full bg-gradient-to-br from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-7xl mx-auto">
+                  <div className="w-full h-full bg-gradient-to-r from-[#6a70d1] to-purple-400 flex items-center justify-center rounded-full text-white text-7xl mx-auto">
                     {user.username.charAt(0).toUpperCase()}
                   </div>
                 )}
@@ -157,7 +157,7 @@ const SettingsPage = () => {
                 <input type="text" value={user.address} onChange={(e) => setUser({ ...user, address: e.target.value })}className="bg-transparent outline-[#6a70d1] border-2 border-gray-400 p-3 w-[max(42vw,260px)]" placeholder="Type Here" required />
               </div>
 
-              <button onClick={handleSaveProfileChanges} className="my-5 p-3 w-[max(42vw,260px)] text-lg text-white bg-gradient-to-br from-[#6a70d1] to-purple-400 shadow-xl hover:bg-gradient-to-l">
+              <button onClick={handleSaveProfileChanges} className="my-5 p-3 w-[max(42vw,260px)] text-lg text-white bg-gradient-to-r from-[#6a70d1] to-purple-400 shadow-xl hover:bg-gradient-to-l">
                 Save Changes
               </button>
 
@@ -180,19 +180,19 @@ const SettingsPage = () => {
                 <i className="ri-close-large-line cursor-pointer"></i>
               </label>
               <div className="w-full">
-                <button onClick={() => setSelectedSection('details')} className='text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-br from-[#6a70d1] to-purple-400'>
+                <button onClick={() => setSelectedSection('details')} className='text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                   <i className="ri-user-line mr-2"></i>User Details
                 </button>
-                <button onClick={() => setSelectedSection('editProfile')} className='text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-br from-[#6a70d1] to-purple-400 shadow-xl'>
+                <button onClick={() => setSelectedSection('editProfile')} className='text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-r from-[#6a70d1] to-purple-400 shadow-xl'>
                 <i className="ri-user-settings-line mr-2"></i>Edit Profile
                 </button>
                 <Link to='/home'>
-                  <button className="text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-br from-[#6a70d1] to-purple-400">
+                  <button className="text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-r from-[#6a70d1] to-purple-400">
                   <i className="ri-home-4-line mr-2"></i>Go to Home
                   </button>
                 </Link>
                 <Link to='/logout'>
-                  <button className="text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-br from-[#6a70d1] to-purple-400">
+                  <button className="text-start block w-full py-2 px-4 text-lg mb-4 hover:font-semibold text-white bg-gradient-to-r from-[#6a70d1] to-purple-400">
                   <i className="ri-logout-box-line mr-2"></i>Logout
                   </button>
                 </Link>

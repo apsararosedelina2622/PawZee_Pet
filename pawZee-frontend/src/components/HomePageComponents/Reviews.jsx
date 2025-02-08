@@ -9,7 +9,7 @@ const Reviews = () => {
 
             <div className='lg:px-20 px-5 pt-10'>
 
-                <div className='text-center py-5 text-3xl md:text-5xl lg:text-5xl lg:h-[100px] md:h-[12vh] font-semibold text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400'>
+                <div className='text-center py-5 text-3xl md:text-5xl lg:text-5xl lg:h-[100px] md:h-[12vh] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                     <p>What Our Customers Say!</p>
                 </div>
 
@@ -31,7 +31,7 @@ const Reviews = () => {
                     </div>
 
                     <div className='flex justify-center'>
-                        <button className='btn rounded-full sm:block hidden lg:mt-0 md:mt-0 mt-5 bg-gradient-to-br from-[#6a70d1] to-purple-400 shadow-inner hover:bg-none  hover:bg-gray-200 text-white hover:text-gray-800 border-0'>Review us on Google</button>
+                        <button className='btn rounded-full sm:block hidden lg:mt-0 md:mt-0 mt-5 bg-gradient-to-r from-[#6a70d1] to-purple-400 shadow-inner hover:bg-none  hover:bg-gray-200 text-white hover:text-gray-800 border-0'>Review us on Google</button>
                     </div>
                 </div>                   
 

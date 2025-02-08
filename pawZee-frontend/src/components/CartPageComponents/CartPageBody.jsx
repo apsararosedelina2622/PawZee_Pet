@@ -10,7 +10,7 @@ const CartPage = () => {
   return (
     <div className="px-5 lg:px-20 pt-28">
 
-      <div className="pb-10 text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400">
+      <div className="pb-10 text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400">
         <p> Cart </p>
       </div>
 
@@ -84,7 +84,7 @@ const CartPage = () => {
                         </div>
                     </div>
                     <div className="text-center mt-10">
-                        <Link to="/checkout" className="bg-gradient-to-br from-[#6a70d1] to-purple-400 text-white px-6 py-3 rounded-badge hover:bg-gradient-to-l transition duration-300">
+                        <Link to="/checkout" className="bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white px-6 py-3 rounded-badge hover:bg-gradient-to-l transition duration-300">
                             Proceed to Checkout
                         </Link>
                     </div>

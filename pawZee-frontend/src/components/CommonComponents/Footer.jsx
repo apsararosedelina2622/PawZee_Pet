@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
 
                     <div className='md:ml-14 lg:ml-0'>
-                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400'>
+                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                             <p>Quick Links</p>
                         </div>
                         <div className="flex flex-col space-y-2">
@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400'>
+                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                             <p>Our Services</p>
                         </div>
                         <div className="flex flex-col space-y-2">
@@ -76,7 +76,7 @@ const Footer = () => {
                     </div>
 
                     <div className='md:ml-14 lg:ml-0'>
-                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400'>
+                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                             <p>Contact Us</p>
                         </div>
                         <div className="flex items-center gap-3">

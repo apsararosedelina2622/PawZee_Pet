@@ -11,7 +11,7 @@ const HomeContent = () => {
                 <div className='py-0'>
 
                     <div className="flex items-center">
-                        <p className="lg:text-3xl md:text-3xl text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400 relative bottom-1 leading-none">Join the PawZee Zone,
+                        <p className="lg:text-3xl md:text-3xl text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 relative bottom-1 leading-none">Join the PawZee Zone,
                             <span className="absolute w-10 h-8 bg-purple-900 rounded-full lg:bottom-0 md:bottom-0 xl:bottom-0 bottom-18 left-44 blur-md opacity-40 "></span>
                         </p>
                     </div>

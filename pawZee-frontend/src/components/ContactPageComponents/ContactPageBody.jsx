@@ -9,7 +9,7 @@ const ContactPageBody = () => {
                 {/* Content */}
 
                 <div className='px-5 lg:px-20 pt-24'>
-                    <div className='text-center text-3xl md:text-5xl lg:text-5xl h-[8vh] font-semibold text-transparent bg-clip-text bg-gradient-to-br from-[#6a70d1] to-purple-400'>
+                    <div className='text-center text-3xl md:text-5xl lg:text-5xl h-[8vh] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                         <p> Contact Us </p>
                     </div>
                     <p className='text-center py-5'>We’re here to help you and your furry friends! Reach out to us for any queries.</p> 
@@ -45,10 +45,10 @@ const ContactPageBody = () => {
                         </div>
 
                         <div className='pt-6 space-x-4'>
-                            <i className="ri-facebook-fill text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-twitter-x-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-instagram-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-whatsapp-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-br from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-facebook-fill text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-twitter-x-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-instagram-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-whatsapp-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
                         </div>
                     </div>
 
@@ -64,7 +64,7 @@ const ContactPageBody = () => {
                         </div>
 
                         <div className='flex justify-center'>
-                            <button className='btn btn-wide bg-gradient-to-br from-[#6a70d1] to-purple-400 hover:shadow-inner hover:bg-none hover:bg-gray-200 text-white border-none hover:text-gray-800'>Send Message</button>
+                            <button className='btn btn-wide bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:shadow-inner hover:bg-none hover:bg-gray-200 text-white border-none hover:text-gray-800'>Send Message</button>
                         </div>
                     </div>
 
