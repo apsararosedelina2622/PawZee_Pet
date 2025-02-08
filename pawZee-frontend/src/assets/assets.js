@@ -108,49 +108,49 @@ export const about_data = [
 export const review_data = [
     {
         id : 1,
-        name : 'Anas',
+        name : 'Alwin',
         date : '1 year ago',
         profile_bg : 'bg-blue-500',
         review : 'Fantastic pet shop with friendly service and great pet selection!'
     },
     {
         id : 2,
-        name : 'Sarah',
+        name : 'Rubarsha',
         date : '1 month ago',
         profile_bg : 'bg-red-500',
         review : 'Wide variety of pets, accessories, and excellent customer support service!'
     },
     {
         id : 3,
-        name : 'John',
+        name : 'Mary',
         date : '2 months ago',
         profile_bg : 'bg-purple-500',
         review : 'Amazing experience, knowledgeable staff, and high-quality pets every time!'
     },
     {
         id : 4,
-        name : 'Emily',
+        name : 'Rhythm',
         date : '8 days ago',
         profile_bg : 'bg-gray-800',
         review : 'A one-stop shop for all pet needs, highly recommended!'  
     },
     {
         id : 5,
-        name : 'David',
+        name : 'Kavin',
         date : '1 day ago',
         profile_bg : 'bg-green-500',
         review : 'Great customer service, healthy pets, and fantastic pet care products!'
     },
     {
         id : 6,
-        name : 'Jessica',
+        name : 'Arjun',
         date : '2 days ago',
         profile_bg : 'bg-teal-700',
         review : 'Friendly staff, top-notch pets, always a great experience!'
     },
     {
         id : 7,
-        name : 'Michael',
+        name : 'Sahi',
         date : '2 months ago',
         profile_bg : 'bg-yellow-800',
         review : 'Excellent service and variety of pets, always enjoy shopping here!'
@@ -182,14 +182,3 @@ export const sm_carousel_data = [
         img : sm_carousel_img_1
     }
 ]
-
-// export const maganize_imgs = [
-//     {
-//         id : 1,
-//         img : magazine_img_1
-//     },
-//     {
-//         id : 2,
-//         img : magazine_img_2
-//     }
-// ]

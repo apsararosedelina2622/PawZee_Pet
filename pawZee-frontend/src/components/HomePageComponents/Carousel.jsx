@@ -25,7 +25,7 @@ const Carousel = ({ lg_md_carousel_slides, sm_carousel_slides }) => {
                     Explore a world of furry friends. <br /> At PawZee, we celebrate the joy of pets <br /> and their unconditional love for you.
                   </p>
                   <Link to={'/shop/cat'}>
-                    <button className="px-6 py-2 md:btn-xl bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:bg-gray-300 hover:bg-none text-white hover:text-gray-800 font-semibold rounded-full">
+                    <button className="px-6 py-2 md:btn-xl bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:bg-gray-100 hover:bg-none text-white hover:text-purple-500 shadow-lg font-medium rounded-full">
                       Discover More
                     </button>
                   </Link>

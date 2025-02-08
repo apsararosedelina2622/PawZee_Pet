@@ -470,9 +470,10 @@ const NavBar = () => {
                         <div className="space-y-2 my-3 2xl:ml-4 xl:ml-8 lg:ml-4 md:ml-8 ml-4 w-40">
                           <p className="text-lg font-medium text-gray-800">{item.name}</p>
                           <p className="text-sm text-gray-600"><span className='font-semibold'>Price :</span> ₹ {item.price}</p>
+                          <p className="text-gray-800">{item.desc.slice(0, 40)}...</p>
                         </div>
 
-                        <div className="mt-3 flex flex-col items-end">
+                        <div className="flex flex-col justify-center items-end">
                           <button className="text-red-600 text-sm relative" onClick={() => removeFromWishlist(item._id)}><i className="ri-close-circle-line text-lg"></i></button>
                         </div>
 
@@ -553,9 +554,10 @@ const NavBar = () => {
                         <img src={item.image} alt={item.name} className="shadow-md lg:w-[15vh] lg:h-[13.5vh] md:w-[20vh] md:h-[15vh] w-[15vh] h-[15vh] object-cover rounded-md" />
                       </div>
 
-                      <div className="space-y-2 my-3 2xl:ml-4 xl:ml-8 lg:ml-4 md:ml-8 ml-4 w-40">
+                      <div className="space-y-1 my-3 2xl:ml-4 xl:ml-8 lg:ml-4 md:ml-8 ml-4 w-40">
                         <p className="text-lg font-medium text-gray-800">{item.name}</p>
-                        <p className="text-sm text-gray-600">₹ {item.price}</p>
+                        <p className="text-gray-800">{item.desc.slice(0,25)}...</p>
+                        <p className="text-sm font-medium text-gray-600">₹ {item.price}</p>
                         <div className="flex items-center border w-fit">
                           <button onClick={() => updateQuantity(item._id, 'decrease')} className="hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 hover:text-white w-8 h-8"><i className="ri-subtract-line"></i></button>
                           <input type="text" value={item.quantity} className="text-center w-10 h-8 focus:outline-none" readOnly />
@@ -563,7 +565,7 @@ const NavBar = () => {
                         </div>
                       </div>
 
-                      <div className="mt-3 flex flex-col items-end">
+                      <div className="flex flex-col justify-center items-end">
                         <button className="text-red-600 text-sm relative" onClick={() => removeFromCart(item._id)}><i className="ri-close-circle-line text-lg"></i></button>
                       </div>
 
