@@ -51,7 +51,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Cats</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700 cursor-pointer">
+                                <div className="collapse-content text-gray-700 cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         <p className='hover:text-black hover:font-medium' onClick={() => handleFilter('Cat Breed')}> 
@@ -81,7 +81,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Dogs</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700 cursor-pointer">
+                                <div className="collapse-content text-gray-700 cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <p className='hover:text-black hover:font-medium py-2' onClick={() => handleFilter('Dog Breed')}> <span className='ri-arrow-right-s-line text-xl'></span>Dog Breeds</p>
                                     <p className='hover:text-black hover:font-medium' onClick={() => handleFilter('Dog Food')}> <span className='ri-arrow-right-s-line text-xl'></span>Dog Foods</p>
@@ -100,7 +100,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Cat Breeds</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                <div className="collapse-content text-gray-700  cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         {cat_breeds.map((breeds, index) => (
@@ -118,7 +118,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Dog Breeds</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                <div className="collapse-content text-gray-700  cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         {dog_breeds.map((breeds, index) => (
@@ -136,7 +136,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Cat Foods</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                <div className="collapse-content text-gray-700  cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         {cat_food.map((food, index) => (
@@ -154,7 +154,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Dog Foods</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                <div className="collapse-content text-gray-700  cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         {dog_food.map((food, index) => (
@@ -172,7 +172,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Cat Accessories</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                <div className="collapse-content text-gray-700  cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         {cat_accessory.map((accessory, index) => (
@@ -190,7 +190,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Dog Accessories</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                <div className="collapse-content text-gray-700  cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         {dog_accessory.map((accessory, index) => (
@@ -208,7 +208,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Cat Groomings</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                <div className="collapse-content text-gray-700  cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         {cat_grooming.map((grooming, index) => (
@@ -226,7 +226,7 @@ const ShopBody = ( { pet } ) => {
                                     <p>Cat Groomings</p>
                                     <p className='relative left-8'>🐾</p>
                                 </div>
-                                <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                <div className="collapse-content text-gray-700  cursor-pointer">
                                     <hr className='border-gray-300 py-2'/>
                                     <div>
                                         {dog_grooming.map((grooming, index) => (
@@ -265,7 +265,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Cats</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700 cursor-pointer">
+                                        <div className="collapse-content text-gray-700 cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 <p className='hover:text-black hover:font-medium' onClick={() => handleFilter('Cat Breed')}> 
@@ -295,7 +295,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Dogs</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700 cursor-pointer">
+                                        <div className="collapse-content text-gray-700 cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <p className='hover:text-black hover:font-medium py-2' onClick={() => handleFilter('Dog')}> <span className='ri-arrow-right-s-line text-xl'></span>Dog Breeds</p>
                                             <p className='hover:text-black hover:font-medium' onClick={() => handleFilter('Dog Food')}> <span className='ri-arrow-right-s-line text-xl'></span>Dog Foods</p>
@@ -315,7 +315,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Cat Breeds</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                        <div className="collapse-content text-gray-700  cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 {cat_breeds.map((breeds, index) => (
@@ -333,7 +333,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Dog Breeds</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                        <div className="collapse-content text-gray-700  cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 {dog_breeds.map((breeds, index) => (
@@ -351,7 +351,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Cat Foods</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                        <div className="collapse-content text-gray-700  cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 {cat_food.map((food, index) => (
@@ -369,7 +369,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Dog Foods</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                        <div className="collapse-content text-gray-700  cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 {dog_food.map((food, index) => (
@@ -387,7 +387,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Cat Accessories</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                        <div className="collapse-content text-gray-700  cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 {cat_accessory.map((accessory, index) => (
@@ -405,7 +405,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Dog Accessories</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                        <div className="collapse-content text-gray-700  cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 {dog_accessory.map((accessory, index) => (
@@ -423,7 +423,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Cat Groomings</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                        <div className="collapse-content text-gray-700  cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 {cat_grooming.map((grooming, index) => (
@@ -441,7 +441,7 @@ const ShopBody = ( { pet } ) => {
                                             <p>Cat Groomings</p>
                                             <p className='relative left-8'>🐾</p>
                                         </div>
-                                        <div className="collapse-content bg-gray-100 text-gray-700  cursor-pointer">
+                                        <div className="collapse-content text-gray-700  cursor-pointer">
                                             <hr className='border-gray-300 py-2'/>
                                             <div>
                                                 {dog_grooming.map((grooming, index) => (
