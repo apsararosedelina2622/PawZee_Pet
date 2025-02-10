@@ -1,8 +1,5 @@
-import axios from 'axios';
-import { toast } from 'react-toastify';
 import { assets } from '../../assets/assets';
-import { useNavigate } from 'react-router-dom';
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { AppContext } from '../../context/AppContextProvider';
 
 const FormPageBody = () => {
