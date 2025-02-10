@@ -26,7 +26,7 @@ const FormPageBody = () => {
                 </div>
                 {!validatePassword(RegisterData.password) && RegisterData.password && <p className="text-red-500 text-sm">Password must contain a capital letter, number, and special character.</p>}
                 <textarea placeholder="Address" name="address" value={RegisterData.address} onChange={KeyUp_Register} className="w-full px-4 py-2 border rounded-full focus:outline-[#6a70d1]"></textarea>
-                <button type="submit" className="w-full py-2 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white rounded-md">Register</button>
+                <button type="submit" className="w-full py-2 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white rounded-full shadow-lg">Register</button>
               </form>
               <p className="mt-5 text-center">Already have an account ? <span onClick={toggleForm} className="text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 cursor-pointer">Login</span></p>
             </div>
@@ -43,7 +43,7 @@ const FormPageBody = () => {
                   <input type={showLoginPassword ? "text" : "password"} placeholder="Password" name="password" value={loginData.password} onChange={KeyUp_Login} className="w-full px-4 py-2 border rounded-full focus:outline-[#6a70d1]" />
                   <i className={`absolute right-3 top-3 cursor-pointer text-purple-600 ${showLoginPassword ? "ri-eye-off-fill" : "ri-eye-fill"}`} onClick={toggleLoginPasswordVisibility}></i>
                 </div>
-                <button type="submit" className="w-full py-2 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white rounded-md">Login</button>
+                <button type="submit" className="w-full py-2 bg-gradient-to-r from-[#6a70d1] to-purple-400 text-white rounded-full shadow-lg">Login</button>
               </form>
               <p className="mt-5 text-center">Don’t have an account ? <span onClick={toggleForm} className="text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 cursor-pointer">Register</span></p>
             </div>
