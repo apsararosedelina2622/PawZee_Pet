@@ -129,32 +129,40 @@ export const review_data = [
     },
     {
         id : 4,
-        name : 'Rhythm',
+        name : 'Faths',
         date : '8 days ago',
         profile_bg : 'bg-gray-800',
         review : 'A one-stop shop for all pet needs, highly recommended!'  
     },
     {
         id : 5,
-        name : 'Kavin',
+        name : 'Sahi',
         date : '1 day ago',
-        profile_bg : 'bg-green-500',
+        profile_bg : 'bg-amber-500',
         review : 'Great customer service, healthy pets, and fantastic pet care products!'
     },
     {
         id : 6,
-        name : 'Arjun',
+        name : 'Sheganaz',
         date : '2 days ago',
         profile_bg : 'bg-teal-700',
         review : 'Friendly staff, top-notch pets, always a great experience!'
     },
     {
         id : 7,
-        name : 'Sahi',
+        name : 'Rhythm',
         date : '2 months ago',
         profile_bg : 'bg-yellow-800',
         review : 'Excellent service and variety of pets, always enjoy shopping here!'
+    },
+    {
+        id: 8,
+        name: 'Deena',
+        date: '3 weeks ago',
+        profile_bg: 'bg-green-700',
+        review: 'Great customer support and well-maintained pet supplies. Highly recommend!'
     }
+    
 ]
 
 export const lg_md_carousel_data = [
