@@ -36,7 +36,7 @@ const MyOrdersPage = () => {
   return (
     <div className="pt-28 px-4 md:px-10 lg:px-15 xl:px-28">
       
-      <div className="w-fit mx-auto text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-lcomm from-purple-400 to-[#6a70d1] text-center h-[10vh]">
+      <div className="w-fit mx-auto text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-l from-purple-400 to-[#6a70d1] text-center h-[10vh]">
         <p> My Orders </p>
       </div>
       
