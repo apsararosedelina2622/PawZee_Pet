@@ -7,7 +7,7 @@ const ErrorPageBody = () => {
     return (
         <>
             <div className="text-center lg:pt-36 pt-28 mx-5">
-                <p className="font-bold lg:text-5xl md:text-5xl text-2xl text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 md:h-[10vh]">Oops! Page Not Found</p>
+                <p className="font-bold lg:text-5xl md:text-5xl text-2xl text-transparent bg-clip-text w-fit mx-auto bg-gradient-to-r from-[#6a70d1] to-purple-400 md:h-[10vh]">Oops! Page Not Found</p>
                 <p className="text-gray-600 text-lg pt-3">
                     Sorry, the page you’re looking for doesn’t exist or might have been moved.
                 </p>
