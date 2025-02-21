@@ -14,7 +14,7 @@ const PetFoods = () => {
     return (
         <>
             <div className='lg:px-20'>
-                <div className='text-center pb-5 text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
+                <div className='w-fit mx-auto pb-5 text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                     <p> PawZee Foods </p>
                 </div>
                 <Swiper

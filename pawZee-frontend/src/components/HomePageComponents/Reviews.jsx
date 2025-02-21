@@ -9,7 +9,7 @@ const Reviews = () => {
 
             <div className='lg:px-20 px-5 pt-10'>
 
-                <div className='text-center py-5 text-3xl md:text-5xl lg:text-5xl lg:h-[100px] md:h-[12vh] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
+                <div className='w-fit mx-auto py-5 text-3xl md:text-5xl lg:text-5xl lg:h-[100px] md:h-[12vh] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                     <p>What Our Customers Say!</p>
                 </div>
 

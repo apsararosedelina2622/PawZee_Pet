@@ -45,10 +45,10 @@ const ContactPageBody = () => {
                         </div>
 
                         <div className='pt-6 space-x-4'>
-                            <i className="ri-facebook-fill text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-twitter-x-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-instagram-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
-                            <i className="ri-whatsapp-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-[#6a70d1] p-2 rounded-full"></i>
+                            <i className="ri-facebook-fill text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-purple-600 p-2 rounded-full"></i>
+                            <i className="ri-twitter-x-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-purple-600 p-2 rounded-full"></i>
+                            <i className="ri-instagram-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-purple-600 p-2 rounded-full"></i>
+                            <i className="ri-whatsapp-line text-xl cursor-pointer text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-purple-600 p-2 rounded-full"></i>
                         </div>
                     </div>
 

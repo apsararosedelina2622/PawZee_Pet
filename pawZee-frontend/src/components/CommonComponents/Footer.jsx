@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
 
                     <div className='md:ml-14 lg:ml-0'>
-                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
+                        <div className='text-2xl my-3 font-semibold text-transparent w-fit bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                             <p>Quick Links</p>
                         </div>
                         <div className="flex flex-col space-y-2">
@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
+                        <div className='text-2xl w-fit my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                             <p>Our Services</p>
                         </div>
                         <div className="flex flex-col space-y-2">
@@ -76,7 +76,7 @@ const Footer = () => {
                     </div>
 
                     <div className='md:ml-14 lg:ml-0'>
-                        <div className='text-2xl my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
+                        <div className='text-2xl w-fit my-3 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                             <p>Contact Us</p>
                         </div>
                         <div className="flex items-center gap-3">
@@ -95,10 +95,10 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="flex space-x-3 cursor-pointer">
-                            <i className="ri-facebook-fill text-xl text-[#6a70d1] hover:text-white hover:bg-[#6a70d1] border border-[#6a70d1] rounded-full w-10 h-10 flex items-center justify-center mt-3"></i>
-                            <i className="ri-twitter-x-line text-xl text-[#6a70d1] hover:text-white hover:bg-[#6a70d1] border border-[#6a70d1] rounded-full w-10 h-10 flex items-center justify-center mt-3"></i>
-                            <i className="ri-instagram-line text-xl text-[#6a70d1] hover:text-white hover:bg-[#6a70d1] border border-[#6a70d1] rounded-full w-10 h-10 flex items-center justify-center mt-3"></i>
-                            <i className="ri-whatsapp-line text-xl text-[#6a70d1] hover:text-white hover:bg-[#6a70d1] border border-[#6a70d1] rounded-full w-10 h-10 flex items-center justify-center mt-3"></i>
+                            <i className="ri-facebook-fill text-xl text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-purple-600 rounded-full w-10 h-10 flex items-center justify-center mt-3"></i>
+                            <i className="ri-twitter-x-line text-xl text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-purple-600 rounded-full w-10 h-10 flex items-center justify-center mt-3"></i>
+                            <i className="ri-instagram-line text-xl text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-purple-600 rounded-full w-10 h-10 flex items-center justify-center mt-3"></i>
+                            <i className="ri-whatsapp-line text-xl text-purple-500 hover:text-white hover:bg-gradient-to-r from-[#6a70d1] to-purple-400 border border-purple-600 rounded-full w-10 h-10 flex items-center justify-center mt-3"></i>
                         </div>
                     </div>
 
