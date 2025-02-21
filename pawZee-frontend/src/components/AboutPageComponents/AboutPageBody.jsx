@@ -6,7 +6,7 @@ const AboutPageBody = () => {
         <>
             {/* About Content */}
             <div className='px-5 lg:px-24 pt-16 lg:pt-20'>
-                <div className='text-center text-3xl md:text-5xl lg:text-5xl pt-8 lg:py-10 h-[13vh] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
+                <div className='w-fit mx-auto text-3xl md:text-5xl lg:text-5xl pt-8 lg:py-10 h-[13vh] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                     <p> About Us </p>
                 </div>
                 <div className='grid lg:grid-cols-2 gap-10 py-5 lg:py-14'>
@@ -34,7 +34,7 @@ const AboutPageBody = () => {
 
             {/* Our Services */}
             <div className='p-5 lg:px-20 lg:py-10'>
-                <div className='text-center text-3xl md:text-5xl lg:text-5xl pb-10 lg:pb-14 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
+                <div className='w-fit mx-auto text-3xl md:text-5xl lg:text-5xl pb-10 lg:pb-14 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                     <p>Our Services</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -54,7 +54,7 @@ const AboutPageBody = () => {
 
             {/* FAQS */}
             <div className="px-5 lg:px-40 py-8 lg:py-14">
-                <div className='text-center text-4xl md:text-5xl lg:text-5xl pb-8 lg:pb-14 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
+                <div className='w-fit mx-auto text-4xl md:text-5xl lg:text-5xl pb-8 lg:pb-14 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400'>
                     <p> FAQs </p>
                 </div>
                 <div className="collapse bg-base-200 my-4">

@@ -80,15 +80,15 @@ const Footer = () => {
                             <p>Contact Us</p>
                         </div>
                         <div className="flex items-center gap-3">
-                            <i className="ri-phone-fill text-xl text-[#6a70d1]"></i>
+                            <i className="ri-phone-fill text-xl text-purple-500"></i>
                             <p>+91 98765 43210</p>
                         </div>
                         <div className="flex items-center gap-3 py-2">
-                            <i className="ri-mail-line text-xl text-[#6a70d1]"></i>
+                            <i className="ri-mail-line text-xl text-purple-500"></i>
                             <p>contact@PawZee.com</p>
                         </div>
                         <div className='flex gap-3'>
-                            <i className="ri-map-pin-2-fill text-xl text-[#6a70d1]"></i>
+                            <i className="ri-map-pin-2-fill text-xl text-purple-500"></i>
                             <div>
                                 <p>123 Pet Street,</p>
                                 <p>Trichy, TamilNadu, India.</p>

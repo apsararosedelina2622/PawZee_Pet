@@ -23,7 +23,7 @@ const ContactPageBody = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 px-5 py-8 lg:px-20 lg:py-14'>
 
                     <div className='shadow-lg rounded-lg p-4 lg:p-8 md:p-8'>
-                        <div className='text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-[#6a70d1]'>
+                        <div className='text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-l w-fit from-purple-400 to-[#6a70d1]'>
                             <p>Get In Touch</p>
                         </div>
 
@@ -53,7 +53,7 @@ const ContactPageBody = () => {
                     </div>
 
                     <div className='shadow-lg rounded-lg p-4 lg:p-8 md:p-8'>
-                        <div className='text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-[#6a70d1]'>
+                        <div className='text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-l w-fit from-purple-400 to-[#6a70d1]'>
                             <p>Send Message</p>
                         </div>
 
