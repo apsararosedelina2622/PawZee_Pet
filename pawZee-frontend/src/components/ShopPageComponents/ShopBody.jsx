@@ -29,7 +29,7 @@ const ShopBody = ( { pet } ) => {
         <>
             <div className='xl:px-14 lg:px-10 pt-24'>
                 
-                <div className='text-center text-3xl md:text-5xl lg:text-5xl lg:py-10 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-[#6a70d1] lg:h-[15vh] md:h-[10vh]'>
+                <div className='w-fit mx-auto text-3xl md:text-5xl lg:text-5xl lg:py-10 font-semibold text-transparent bg-clip-text bg-gradient-to-l from-purple-400 to-[#6a70d1] lg:h-[15vh] md:h-[10vh]'>
                     <p>PawZee Shop</p>
                 </div>
   
@@ -251,7 +251,7 @@ const ShopBody = ( { pet } ) => {
                             <label htmlFor="filters-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                             <div className="menu bg-white text-base-content shadow-lg rounded-b-lg min-h-full w-80 p-4">
                                 <div className='flex justify-between items-center mb-5'>
-                                    <button className="text-purple-700 text-lg" onClick={() => handleFilter('')}>
+                                    <button className="text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 font-semibold text-lg" onClick={() => handleFilter('')}>
                                         Clear Filters
                                     </button>
                                     <label htmlFor="filters-drawer" className="text-purple-600 font-bold text-lg bg-gray-100 w-10 h-10 p-2 rounded-full flex items-center justify-center">
@@ -506,15 +506,15 @@ const ShopBody = ( { pet } ) => {
                             <div className="modal modal-open">
                                 <div className="modal-box relative w-11/12 max-w-5xl">
                                     <div className="flex justify-between">
-                                        <div className="font-medium w-fit text-2xl text-purple-600">
+                                        <div className="font-medium text-2xl text-transparent bg-clip-text w-fit bg-gradient-to-r from-[#6a70d1] to-purple-400">
                                             <p>Shop Now</p>
                                         </div>
                                         <button onClick={closeModal}>
-                                            <i className="ri-close-large-line font-bold p-3 text-purple-700 bg-gray-100 rounded-full"></i>
+                                            <i className="ri-close-large-line font-bold p-3 text-purple-500 bg-gray-100 rounded-full"></i>
                                         </button>
                                     </div>
                                     {cartNotification && (
-                                        <div className="p-2 my-5 flex justify-between text-sm text-purple-700 bg-purple-100 border border-purple-400 rounded">
+                                        <div className="p-2 my-5 flex justify-between text-sm text-purple-500 bg-purple-100 border border-purple-400 rounded">
                                             <div>
                                                 <p>{cartNotification}</p>
                                             </div>
@@ -524,7 +524,7 @@ const ShopBody = ( { pet } ) => {
                                         </div>
                                     )}
                                     {wishlistNotification && (
-                                        <div className="p-2 mt-5 flex justify-between text-sm text-purple-700 bg-purple-100 border border-purple-400 rounded">
+                                        <div className="p-2 mt-5 flex justify-between text-sm text-purple-500 bg-purple-100 border border-purple-400 rounded">
                                             <div>
                                                 <p>{wishlistNotification}</p>
                                             </div>
@@ -538,7 +538,7 @@ const ShopBody = ( { pet } ) => {
                                             <img src={selectedItem.image} alt="model_img"className="w-full lg:h-[50vh] md:h-[50vh]"/>
                                         </div>
                                         <div>
-                                            <div className="text-2xl font-medium text-purple-600">
+                                            <div className="text-2xl font-medium text-transparent bg-clip-text w-fit bg-gradient-to-r from-[#6a70d1] to-purple-400">
                                                 <p>{selectedItem.name}</p>
                                             </div>
 
@@ -546,11 +546,11 @@ const ShopBody = ( { pet } ) => {
                                                 {selectedItem.desc}
                                             </div>
 
-                                            <p className="text-2xl text-purple-600 font-semibold">₹ {selectedItem.price}</p>
+                                            <p className="text-2xl text-transparent bg-clip-text w-fit bg-gradient-to-r from-[#6a70d1] to-purple-400 font-semibold">₹ {selectedItem.price}</p>
 
                                             <div className="flex cursor-pointer my-4 w-fit" onClick={handleAddToWishlist}>
                                                 {wishlist.some(wishItem => wishItem.id === selectedItem.id) 
-                                                ? ( <i className="ri-heart-3-fill text-purple-600"></i> )
+                                                ? ( <i className="ri-heart-3-fill text-purple-500"></i> )
                                                 : ( <i className="ri-heart-3-line text-gray-800"></i> )}
                                                 <p className='ml-2 text-gray-600 '>
                                                     {wishlist.some(wishItem => wishItem.id === selectedItem.id) ? 'Added' : 'Add wishlist'}
@@ -563,13 +563,13 @@ const ShopBody = ( { pet } ) => {
                                             </div>
 
                                             <div>
-                                                <p className="text-lg font-semibold text-purple-700 my-4">Recommended Products</p>
+                                                <p className="text-lg font-semibold text-transparent bg-clip-text w-fit bg-gradient-to-r from-[#6a70d1] to-purple-400 my-4">Recommended Products</p>
                                                 <div className="flex flex-wrap gap-2">
-                                                    <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Cats</span>
-                                                    <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Dogs</span>
-                                                    <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Foods</span>
-                                                    <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Accessroies</span>
-                                                     <span className="bg-purple-100 text-purple-700 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Groomings</span>
+                                                    <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Cats</span>
+                                                    <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Dogs</span>
+                                                    <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Foods</span>
+                                                    <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Accessroies</span>
+                                                     <span className="bg-purple-100 text-purple-500 cursor-pointer text-sm font-medium px-3 py-1 rounded-full">Groomings</span>
                                                 </div>
                                             </div>
                                         </div>

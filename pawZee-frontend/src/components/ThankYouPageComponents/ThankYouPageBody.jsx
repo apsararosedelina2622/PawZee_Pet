@@ -6,14 +6,14 @@ const ThankYouPageBody = () => {
   return (
     <div className="pt-28">
 
-      <div className="text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 text-center h-[12vh] lg:h-[8vh] md:h-[8vh]">
+      <div className="text-3xl md:text-5xl lg:text-5xl w-fit font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400 mx-auto h-[12vh] lg:h-[8vh] md:h-[8vh]">
         <p> Thank You for Your Order ! </p>
       </div>
 
       <div className="mx-5 my-12 rounded-lg shadow-xl max-w-xl lg:mx-auto md:mx-auto">
 
         <div className="text-center space-y-8 pt-4 px-2">
-          <p className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400">Order placed Successfully !</p>
+          <p className="text-2xl font-semibold text-transparent w-fit mx-auto bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400">Order placed Successfully !</p>
           <img src={assets.order_success} alt="order-confirm-img" className='mx-auto lg:w-1/2  md:w-6/12 w-8/12' />
         </div>
 

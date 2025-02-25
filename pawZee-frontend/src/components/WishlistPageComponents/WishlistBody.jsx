@@ -11,7 +11,7 @@ const WishlistBody = () => {
         <>
             <div className="px-5 lg:px-20 pt-28">
 
-                <div className="pb-10 text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#6a70d1] to-purple-400">
+                <div className="pb-10 text-3xl md:text-5xl lg:text-5xl font-medium text-transparent bg-clip-text w-fit bg-gradient-to-r from-[#6a70d1] to-purple-400">
                     <p> Wishlist </p>
                 </div>
 
