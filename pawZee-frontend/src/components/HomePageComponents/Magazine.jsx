@@ -17,7 +17,7 @@ const Magazine = () => {
                         <p className="py-4 text-gray-600">
                             "When I brought home my Golden Retriever, Max, I was overwhelmed with questions about his care. Thankfully, I discovered PawZee! From premium food options to durable toys, I needed was just a click away. The blog articles were a lifesaver, offering tips on training and keeping Max healthy. The customer support team went above and beyond to help me choose the perfect grooming kit. Max couldn’t be happier. Thank you, PawZee, for making pet parenting so easy and joyful!"
                         </p>
-                        <p className="block font-semibold text-gray-800 text-end">– Deena V.</p>
+                        <p className="block font-semibold text-gray-800 text-end">– Junwoo KJ.</p>
                     </div>
                 </div>
                 <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-16 py-5">
