@@ -29,8 +29,6 @@ import service_img_3 from './about_imgs/service_img_3.jpg'
 import service_img_4 from './about_imgs/service_img_4.jpg'
 
 import carousel_img_1 from './carousel_imgs/carousel_img_1.jpg'
-import carousel_img_2 from './carousel_imgs/carousel_img_1.jpg'
-import carousel_img_3 from './carousel_imgs/carousel_img_1.jpg'
 
 import sm_carousel_img_1 from './carousel_imgs/sm_carousel_img_1.jpg'
 
@@ -136,14 +134,14 @@ export const review_data = [
     },
     {
         id : 5,
-        name : 'Kim',
+        name : 'Lofi',
         date : '1 day ago',
         profile_bg : 'bg-amber-500',
         review : 'Great customer service, healthy pets, and fantastic pet care products!'
     },
     {
         id : 6,
-        name : 'Min',
+        name : 'Everly',
         date : '2 days ago',
         profile_bg : 'bg-teal-700',
         review : 'Friendly staff, top-notch pets, always a great experience!'
@@ -172,11 +170,11 @@ export const lg_md_carousel_data = [
     },
     {
         id : 2,
-        img : carousel_img_2
+        img : carousel_img_1
     },
     {
         id : 3,
-        img : carousel_img_3
+        img : carousel_img_1
     }
 ]
 
